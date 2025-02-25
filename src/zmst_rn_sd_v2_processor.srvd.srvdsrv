@@ -1,0 +1,12 @@
+@EndUserText.label: 'Processor App'
+define service Zmst_rn_sd_v2_processor {
+  expose zmst_rn_travel_PROCESSOR    as Travel;
+  expose ZMST_RN_BOOKING_PROCESSOR   as Booking;
+  expose ZMST_RN_BOOKSUPPL_PROCESSOR as BookingSupply;
+  expose /DMO/I_Agency               as Agencey;
+  expose /DMO/I_Customer             as Customer;
+  expose /DMO/I_Carrier              as Carrier;
+  expose /DMO/I_Connection           as Connection;
+  expose /DMO/I_Overall_Status_VH    as OverallStatus;
+  expose /DMO/I_Booking_Status_VH    as BookingStatus;
+}

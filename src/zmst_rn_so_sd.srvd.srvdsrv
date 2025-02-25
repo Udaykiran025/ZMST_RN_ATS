@@ -1,0 +1,4 @@
+@EndUserText.label: 'SERVICE DEFINITION FOR SALES ORDER MODIFICATION'
+define service ZMST_RN_SO_SD {
+  expose zc_zmst_rn_sales_ana;
+}
